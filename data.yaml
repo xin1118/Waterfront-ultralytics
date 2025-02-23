@@ -1,0 +1,22 @@
+train: G:\Agent\my_dataset\ultralytics\datasets\images\train # train images
+val: G:\Agent\my_dataset\ultralytics\datasets\images\val # val images
+test: G:\Agent\my_dataset\ultralytics\datasets\images\test # test images (optional)
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# Classes
+nc: 12  # number of classes
+# 类别名称
+names:
+  0: 'forest'                  # 森林
+  1: 'building'                # 建筑
+  2: 'road'                    # 道路
+  3: 'lawn'                    # 草坪
+  4: 'landscape road'          # 景观道路
+  5: 'waterfront'              # 滨水区
+  6: 'lane'                    # 车道
+  7: 'water'                   # 水域
+  8: 'plaza'                   # 广场
+  9: 'playground'              # 游乐场
+  10: 'farmland'               # 农田
+  11: 'pier'                   # 码头

@@ -1,0 +1,4 @@
+模型验证
+yolo task=detect mode=val model=runs/detect/train/weights/best.pt  data=data.yaml device=0
+模型推理
+yolo task=detect mode=predict model=runs/detect/train/weights/best.pt source=inference  device=0
